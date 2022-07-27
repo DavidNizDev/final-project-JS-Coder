@@ -1,0 +1,12 @@
+{
+  "name": "segunda-pre-entrega-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./styles/styles.scss ./styles/styles.min.css -w --no-source-map -s compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

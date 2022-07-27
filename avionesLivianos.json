@@ -1,0 +1,61 @@
+[
+    {
+        "cessna": {
+            "c150": {
+                "id": 1,
+                "modelo": "C-150",
+                "añoFabricación": 1959,
+                "hp": 100,
+                "origen": "USA",
+                "cruiseSpeed": "82 KTS",
+                "range": "318 NM",
+                "fuelBurn": "22.7 L/PH",
+                "emptyWeight": "446 KG"
+            },
+            "c152": {
+                "id": 2,
+                "modelo": "C-152",
+                "añoFabricación": 1977,
+                "hp": 110,
+                "origen": "USA",
+                "cruiseSpeed": "96 KTS",
+                "range": "415 NM",
+                "fuelBurn": "22.7 L/PH",
+                "emptyWeight": "490 KG"
+            },
+            "pa38": {
+                "id": 3,
+                "modelo": "PA-38",
+                "añoFabricación": 1978,
+                "hp": 112,
+                "origen": "USA",
+                "cruiseSpeed": "100 KTS",
+                "range": "468 NM",
+                "fuelBurn": "23 L/PH",
+                "emptyWeight": "512 KG"
+            },
+            "pa28": {
+                "id": 4,
+                "modelo": "PA-28",
+                "añoFabricación": 1960,
+                "hp": 140,
+                "origen": "USA",
+                "cruiseSpeed": "108 KTS",
+                "range": "468 NM",
+                "fuelBurn": "37 L/PH",
+                "emptyWeight": "545 KG"
+            },
+            "c172": {
+                "id": 5,
+                "modelo": "C-172",
+                "añoFabricación": 1956,
+                "hp": 158,
+                "origen": "USA",
+                "cruiseSpeed": "120 KTS",
+                "range": "686 NM",
+                "fuelBurn": "40 L/PH",
+                "emptyWeight": "743 KG"
+            }
+        }
+    }
+]
