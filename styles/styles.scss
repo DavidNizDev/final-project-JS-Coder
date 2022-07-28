@@ -3,57 +3,48 @@ body {
     background: rgb(131, 150, 180);
     background: radial-gradient(circle, rgba(131, 150, 180, 0.7875525210084033) 47%, rgba(39, 98, 164, 1) 100%);
 }
-
 .container {
     background-color: burlywood;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
 .hc {
     color: rgb(88, 141, 189);
 }
-
 .mainFLbook {
     height: 80vh;
     margin-top: 3vh;
-    /*     padding-bottom: 1100px;
- */
 }
-
-
 .divF1 {
     margin-top: 3vh;
     margin-bottom: 5vh;
     display: grid;
     justify-content: center;
 }
-
 .divF2 {
     margin-top: 2vh;
 }
-
 .botonSubmit {
     align-self: flex-end;
     margin-left: 3vh;
+    button {
+        border-radius: 7px;
+        border-color: rgb(49,104,165);
+        color:  rgb(49,104,165);
+    }
 }
-
 .divF3 {
     margin-top: 7vh;
-/*     background-color: brown;
- */}
-
+}
 .inputs {
     border-radius: 5px;
     border: 1px solid #39c;
 }
-
 .footerr {
     .footerDiv {
         background: transparent;
         opacity: 1;
     }
 }
-
 .divInterno {
     display:flex;
     justify-content: space-evenly;
@@ -61,23 +52,24 @@ body {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
-
 #nav-tabContent {
     img {
         border-radius: 15px;
     }
 }
-
 .tituloAviones {
     display: flex;
     justify-content: center;
+    margin-top: 10vh;
 }
+.row2 {
+    display: flex;
+    justify-content: left;
+}
+#nav-tab {
+    margin-top: 2vh;
 
-#avionesDiv {
-    border-top: 265vh;
-/*     background-color: #39c;
- */}
-
-#pintarDatos {
-    margin-bottom: 140vh;
+    button {
+        color: rgb(49,104,165);
+    }
 }
