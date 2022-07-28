@@ -1,8 +1,3 @@
-
-
-
-
-
 function dale() {
     const flSubmit = document.getElementById("flSubmit"); // boton submit
     const pintarDatos = document.getElementById("pintarDatos"); // tbody
@@ -18,29 +13,8 @@ function dale() {
 
     let datosStorage = JSON.parse(localStorage.getItem("listaForm"));
 
-    /*     function agregarVuelo(vuelo) {
-            let fila = document.createElement("tr");
-            let cols = document.createElement("td");
-            let contenido = document.createTextNode(vuelo);
-            pintarDatos.appendChild(fila);
-            fila.appendChild(cols);
-            cols.appendChild(contenido);
-        }
-     */
     flSubmit.addEventListener("click", () => {
         if ((date.value != "") && (depTime.value != "") && (arrivTime.value != "") && (itinerary.value != "") && (typeCraft.value != "") && (registration.value != "") && hp.value != "" && (flightTime.value != "") && (landings.value != "")) {
-            /*             agregarVuelo(date.value, depTime.value, arrivTime.value, itinerary.value, typeCraft.value, registration.value, hp.value, flightTime.value, landings.value);
-             */
-            /*             agregarVuelo(date.value);
-                        agregarVuelo(depTime.value);
-                        agregarVuelo(arrivTime.value);
-                        agregarVuelo(itinerary.value);
-                        agregarVuelo(typeCraft.value);
-                        agregarVuelo(registration.value);
-                        agregarVuelo(hp.value);
-                        agregarVuelo(flightTime.value);
-                        agregarVuelo(landings.value);
-             */
             datosStorage.push({
                 date: date.value,
                 depTime: depTime.value,
@@ -189,8 +163,3 @@ testLogin.addEventListener("click", () => {
 
     })
 })
-
-/* Swal.fire(`
-  Email: ${result.value.email}
-  Password: ${result.value.password}
-`.trim()) */
